@@ -1,0 +1,105 @@
+<!doctype>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>自我介紹</title>
+
+    </head>
+    <body>
+        <style>
+            dt{
+                margin: 20px;
+                font-size: 20px;
+                font-weight: bolder;
+
+            }
+            dd{
+                margin-right: 40%;
+                text-indent: 2em;
+                text-align: justify;
+                width: 360px;
+            }
+            .the_button{
+                position: fixed;
+                background-color: rgba(0, 0, 0, 0.3);
+                width: 80px;
+                height: 40px;
+                color: white;
+                border: none;
+                font-size: 20px;
+                border-radius: 35%;
+                bottom: 5%;
+                right: 30%;
+            }
+        </style>
+        <div>
+            <p style='font-size: 40px; font-weight: 900;margin-left: 40px;' id="top_title">自我介紹</p>
+        </div>
+        <hr>
+        <div>
+            <header style="background-color:plum; width: 440px; border-radius: 0.9%;margin-left: 20px;;">
+                <span style="width: 100px;; display: inline-block; font-size: 28px; margin-left: 20px;">導覽</span>
+                <nav style="width: 730px; display: inline-block;">
+                    <ul>
+                        <li><a href="#s1">想轉行的原因</a></li>
+                        <li><a href="#s2">想成為哪種工程師</a></li>
+                        <li><a href="#s3">做過什麼努力</a></li>
+                        <li><a href="#s4">如何安排時間</a></li>
+                        <li><a href="#s5">預期碰到的困難、如何解決?</a></li>
+                        <li><a href="#s6">有沒有想加入軟體公司</a></li>
+                        <li><a href="#s7">想說的話</a></li>
+                    </ul>  
+                </nav>
+            </header>
+        </div>
+        <div>
+            <ol style="margin-left: 30px;">
+                <li>姓名:曹立旻</li>
+                <li>年齡:28</li>
+                <li>性別:男</li>
+                <li>職業:廚師(在職中</li>
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=100000127003147">Facebook</a>
+                </li>
+                <hr>
+        </div>
+        <div style="position: relative;">
+            <button class="the_button" type="button"><a href="#top_title">Top</a></button>
+        </div>
+        <div style="background-color: rgba(115, 85, 160, 0.2);margin-right: 60%;margin-left: 20px;width: 440px;border-radius: 0.2%;">
+            <dl>
+                <dt id="s1">想轉行的原因:</dt>
+                <dd>
+                    在廚師這行待了8年有了，老實說不只是廚師這個行業而已，在台灣任何職業都得不到該有的尊重，
+                    更不要說像廚師這種被糟蹋的職業，現在的薪水其實不低，可如果要在往上一層樓非得有些突破不可。為什麼是工程師呢?應該有很多人都和我一樣，坐在電腦前面十來個小時都不會累，當然我知道玩電腦、看影片之類的和工程師的工作不能相比，但我認為我有這個天分。從小我就喜歡去享受解決麻煩的事情、解決問題或是成功挑戰目標的成就感，各行各業都有，只是剛好我喜歡電腦。
+                </dd>
+                <dt id="s2">想成為哪種工程師:</dt>
+                <dd>
+                    大家都想成為遊戲設計師吧我想，但我問了一些但我問了一些教學網站之後，了解到其實前後端才是最缺的，就算你應徵進去了也是被丟進去當前後端...我年紀也不小了，以實際為主的話當然是選職缺最多的位置，問題是我沒有什麼創意或是美術概念，雖然我是讀室內設計的...也許這也是我現在為什麼是廚師的原因吧。所以會以後端工程師為主要選擇，當然要是我真的有天分的話，全端也是個不錯的選擇。
+                </dd>
+                <dt id="s3">做過什麼努力:</dt>
+                <dd>
+                    不敢說有過什麼努力，應該說把時間最大化。想轉行工程師大概有4個月了吧，時間並不長。買書是個好選擇，買了一本:深入淺出C，只能跟得上一點....所以上網買課來上當然是另一個好選擇，買過兩次課。我是一個出社會的人，所以我需要的是速度和實用，兩門課:1門講解得太慢問問題的方面老實說也真的很麻煩，沒辦法實際和老師碰面，另一門課，講得太快，這一篇和下一篇感覺是不同的東西
+                    (不排除是我沒基礎)。我想我需要的是，上課、做作業、'有問題可以問老師'而且快速又方便的問。
+                </dd>
+                <dt id="s4">如何安排時間:</dt>
+                <dd>
+                    廚師的工作時間很長，一天12小時，中間會有2-3小時的休息時間，晚上11點到家，23.00-02.00左右，這些都是我的學習時間，當然還有休假的時候。事實上，我已經和老闆提離職了，在明年2月底，也就是第一階段結業的時候，所以如果連第一階段基礎班都跟不上，那我想大概也不用浪費時間了。
+                </dd>
+                <dt id="s5">預期碰到的困難、如何解決?</dt>
+                <dd>
+                    我是個沒有底子的人，對我而言全部都是困難，畢竟是未知的東西，解決方式太多了，上網查、問老師、問朋友、之前買的課也可以再回去看...等。
+                </dd>
+                <dt id="s6">有沒有想加入軟體公司:</dt>
+                <dd>
+                    這對我而言還很早，為什麼?因為我現在連我到底可以幹嘛都不知道，我怎麼會有目標呢?
+                </dd>
+                <dt id="s7">想說的話:</dt>
+                <dd>
+                    這種課程真的很棒，如果沒選上我會在盡量努力的。
+                </dd>
+            </dl>
+        </div>
+
+    </body>
+</html>
